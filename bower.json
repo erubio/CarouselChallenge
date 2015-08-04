@@ -1,0 +1,21 @@
+{
+  "name": "carousel",
+  "version": "0.0.0",
+  "authors": [
+    "Ezequiel Rubio <eze.rubio@gmail.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "public/vendor",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "~2.1.4",
+    "backbone": "~1.2.1",
+    "underscore": "~1.8.3"
+  }
+}

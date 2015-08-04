@@ -1,0 +1,35 @@
+{> layout /}
+
+{< mainContent}
+	<header class="page-header">
+		<h1>Carousel Challenge with BackBone</h1>
+	</header>
+
+	<script type="text/template" id="item">
+		<img src='<%= image %>'>
+	</script>
+
+	<script type="text/template" id="carouselContainer">
+		<header>
+			<h1 class="block-title _title"></h1>
+		</header>
+		<div class="carousel-wrap _carouselWrapper"></div>
+		<div class="buttons-group">
+			<span class="btn _prev disabled">Prev</span>
+			<span class="btn _next">Next</span>
+		</div>
+	</script>
+	
+{/ mainContent}
+
+{< scriptsContent}
+	<script type="text/javascript" src="/vendor/jquery/dist/jquery.min.js"></script>
+	<script type="text/javascript" src="/vendor/underscore/underscore.js"></script>
+	<script type="text/javascript" src="/vendor/backbone/backbone-min.js"></script>
+	<script type="text/javascript" src="/js/app.js"></script>
+	<script type="text/javascript" src="/js/Models/InfoModel.js"></script>
+	<script type="text/javascript" src="/js/Views/CarouselView.js"></script>
+	<script type="text/javascript" src="/js/Views/GroupItemsView.js"></script>
+	<script type="text/javascript" src="/js/Views/ImageView.js"></script>
+	
+{/ scriptsContent}

@@ -1,0 +1,17 @@
+{> layout /}
+
+{< mainContent}
+	<header class="page-header">
+		<h1>Carousel Challenge</h1>
+	</header>
+
+	<section id="carousel">
+	</section>
+	
+{/ mainContent}
+
+{< scriptsContent}
+	<script type="text/javascript" src="/vendor/jquery/dist/jquery.min.js"></script>
+	<script type="text/javascript" src="/js/simplecarousel.jquery.js"></script>
+	<script type="text/javascript" src="/js/main.js"></script>
+{/ scriptsContent}
