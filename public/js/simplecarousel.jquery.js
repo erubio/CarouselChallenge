@@ -45,7 +45,7 @@
 
 		function checkNextButtonLimit() {
 			var $next = self.$el.find('._next');
-			if(self.page === self.groups.length) {
+			if(self.page === self.groups.length -1) {
 				disableButton($next);
 			} else {
 				enableButton($next);
